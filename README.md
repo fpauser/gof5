@@ -33,6 +33,8 @@ $ sudo gof5 --server server --session sessionID
 
 When username and password are not provided, they will be asked if `~/.gof5/cookies.yaml` file doesn't contain previously saved HTTPS session cookies or when the saved session is expired or explicitly terminated (`--close-session`).
 
+Use `--session` to connect using an existing VPN session.
+
 Use `--close-session` flag to terminate an HTTPS VPN session on exit. Next startup will require a valid username/password.
 
 Use `--select` to choose a VPN server from the list, known to a current server.
